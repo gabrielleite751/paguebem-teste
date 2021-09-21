@@ -1,0 +1,28 @@
+.Card {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    flex: 1;
+    margin: 20px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.Card .Content {
+    height: 250px;
+    color: #000;
+    padding: 15px 0px;
+    background-position: center;
+    background-size: cover;
+}
+
+.Card .Footer {
+    background-color: #000;
+    color: orange;
+    padding: 5px 0px;
+}
